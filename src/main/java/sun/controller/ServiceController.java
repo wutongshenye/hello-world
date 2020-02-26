@@ -23,7 +23,7 @@ public void login(HttpServletRequest request, HttpServletResponse response,     
     }
      @RequestMapping(value = "rest")
     public String rest(@RequestBody ServiceInfo serviceInfo){
-         return "Service1:Welcome Baby22" + serviceInfo.getName() + " !";
+         return "Service1:Welcome Baby33" + serviceInfo.getName() + " !";
     }
 }
 
